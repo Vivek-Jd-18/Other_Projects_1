@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  border: 2px ;
+  margin: auto;
+  width: 35%;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(100,100,255,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(100,100,255,1) 50%, rgba(0,212,255,1) 100%);
+}
+.product{
+  background: linear-gradient(to right, #92FFC0 0%, #002661 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
